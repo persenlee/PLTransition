@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
                    DESC
 
   s.homepage      = "https://github.com/PLTransition"
-  s.author        = { "zhuoyi" => "jiangzhuoyi@idongjia.cn" }
+  s.author        = { "" => "n" }
   s.platform      = :ios, "7.0"
   s.source        = { :git => "https://github.com/PLTransition.git", :tag => "0.1.0" }
 
