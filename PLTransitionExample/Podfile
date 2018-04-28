@@ -1,0 +1,4 @@
+target "PLTransitionExample" do
+pod 'Masonry'
+pod 'PLTransition', :path => '../PLTransition/'
+end

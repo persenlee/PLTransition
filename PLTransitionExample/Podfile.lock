@@ -1,0 +1,19 @@
+PODS:
+  - Masonry (1.1.0)
+  - PLTransition (0.0.1)
+
+DEPENDENCIES:
+  - Masonry
+  - PLTransition (from `../PLTransition/`)
+
+EXTERNAL SOURCES:
+  PLTransition:
+    :path: ../PLTransition/
+
+SPEC CHECKSUMS:
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  PLTransition: 547ec501ce67745f58c45af3ca9c08255692b020
+
+PODFILE CHECKSUM: 0baccfe61e262bc5799cfce0eac66c26f6b50743
+
+COCOAPODS: 1.3.1
