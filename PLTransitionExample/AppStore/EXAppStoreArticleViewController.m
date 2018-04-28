@@ -14,6 +14,7 @@
 @property (nonatomic, strong) UITableView *tableView;
 @property (nonatomic, strong) UIView *headerView;
 @property (nonatomic, strong) UIScrollView *scrollView;
+@property (nonatomic, strong) UIButton *closeButton;
 @end
 
 @implementation EXAppStoreArticleViewController
@@ -34,20 +35,26 @@
     [self.view addSubview:self.scrollView];
 
     _headerView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, CGRectGetWidth(self.view.bounds), 520)];
+    EXAppStoreCardView *cardView = [[EXAppStoreCardView alloc] init];
+    [_headerView addSubview:cardView];
+    
+    cardView.frame = _headerView.bounds;
+    
     [self.scrollView addSubview:self.headerView];
     
     [self.scrollView addSubview:self.tableView];
     self.tableView.frame = CGRectMake(0, CGRectGetMaxY(self.headerView.frame), CGRectGetWidth(self.view.bounds), 5 * 100/*CGRectGetHeight(self.view.bounds) - CGRectGetMaxY(self.headerView.frame)*/);
 
     self.scrollView.contentSize = CGSizeMake(CGRectGetWidth(self.view.bounds), 1020);
-    UIButton *button = [[UIButton alloc] init];
-    [button setTitle:@"关闭" forState:UIControlStateNormal];
-    [self.view addSubview:button];
-    [button mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.top.mas_equalTo(24);
-        make.right.mas_equalTo(-24);
-    }];
-    [button addTarget:self action:@selector(closeAction:) forControlEvents:UIControlEventTouchUpInside];
+    self.closeButton = [[UIButton alloc] init];
+    [self.closeButton setImage:[UIImage imageNamed:@"close"] forState:UIControlStateNormal];
+    [self.view addSubview:self.closeButton];
+    [self.closeButton sizeToFit];
+    CGRect frame = self.closeButton.frame;
+    frame.origin.x = CGRectGetWidth(self.view.bounds) - CGRectGetWidth(frame) - 24;
+    frame.origin.y = CGRectGetHeight(frame) + 24;
+    self.closeButton.frame = frame;
+    [self.closeButton addTarget:self action:@selector(closeAction:) forControlEvents:UIControlEventTouchUpInside];
 }
 
 
@@ -58,7 +65,9 @@
         _scrollView.showsVerticalScrollIndicator = NO;
         _scrollView.showsHorizontalScrollIndicator = NO;
         _scrollView.backgroundColor = [UIColor whiteColor];
-        _scrollView.delegate = self;
+        _scrollView.contentInsetAdjustmentBehavior = UIScrollViewContentInsetAdjustmentNever;
+//        _scrollView.bounces = NO;
+//        _scrollView.delegate = self;
     }
     return _scrollView;
 }
@@ -73,6 +82,8 @@
         _tableView.rowHeight = 100;
         _tableView.sectionHeaderHeight = 0;
         _tableView.tableFooterView = [UIView new];
+        _tableView.separatorStyle = UITableViewCellSelectionStyleNone;
+        _tableView.allowsSelection = NO;
     }
     return _tableView;
 }
@@ -97,21 +108,20 @@
     return cell;
 }
 
-- (void)scrollViewDidScroll:(UIScrollView *)scrollView
-{
+//- (void)scrollViewDidScroll:(UIScrollView *)scrollView
+//{
+//
+//}
 
-}
-
-- (void)addCardView:(EXAppStoreCardView *)cardView
-{
-    [self.headerView addSubview:cardView];
-    [cardView mas_remakeConstraints:^(MASConstraintMaker *make) {
-        make.edges.mas_equalTo(UIEdgeInsetsZero);
-    }];
-}
 
 - (void)closeAction:(UIButton *)sender
 {
     [self dismissViewControllerAnimated:YES completion:nil];
+}
+
+- (void)animateForTransition:(BOOL)presenting
+{
+    self.closeButton.alpha = presenting;
+    self.tableView.alpha = presenting;
 }
 @end

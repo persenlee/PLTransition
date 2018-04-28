@@ -87,7 +87,6 @@
     
     EXAppStoreArticleViewController *vc = [[EXAppStoreArticleViewController alloc] init];
     EXAppStoreTransition *transtion = [[EXAppStoreTransition alloc] init];
-//    transtion.cardView = cell.cardView;
 
     CGRect convertedCardViewFrame = [cell convertRect:cell.cardView.frame toView:self.view];
     transtion.originCardViewFrame = convertedCardViewFrame;

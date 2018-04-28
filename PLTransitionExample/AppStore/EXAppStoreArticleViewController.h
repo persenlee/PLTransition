@@ -10,5 +10,5 @@
 
 @class EXAppStoreCardView;
 @interface EXAppStoreArticleViewController : UIViewController
-- (void)addCardView:(EXAppStoreCardView *)cardView;
+- (void)animateForTransition:(BOOL)presenting;
 @end
