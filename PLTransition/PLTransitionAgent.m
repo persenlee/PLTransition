@@ -35,9 +35,12 @@ static NSTimeInterval const kDefaultTransitionDuration = 0.25f;
     UIView *toView;
     
     if ([transitionContext respondsToSelector:@selector(viewForKey:)]) {
-        
-        fromView = [transitionContext viewForKey:UITransitionContextFromViewKey];
-        toView = [transitionContext viewForKey:UITransitionContextToViewKey];
+        if (@available(iOS 8.0, *)) {
+            fromView = [transitionContext viewForKey:UITransitionContextFromViewKey];
+        }
+        if (@available(iOS 8.0, *)) {
+            toView = [transitionContext viewForKey:UITransitionContextToViewKey];
+        }
     } else {
         fromView = fromViewController.view;
         toView = toViewController.view;

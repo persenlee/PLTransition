@@ -126,7 +126,6 @@
     UIView *view = self.viewController.view;
     
     CGPoint point =  [gr locationInView:view.superview];
-    CGPoint velocity = [gr velocityInView:view];
     
     switch (gr.state) {
         case UIGestureRecognizerStateBegan:
