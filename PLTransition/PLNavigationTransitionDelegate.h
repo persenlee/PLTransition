@@ -8,10 +8,8 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
+#import "PLBaseTransitionDelegate.h"
 
 @protocol PLTransitionProtocol;
-@interface PLNavigationTransitionDelegate : NSObject<UINavigationControllerDelegate>
-- (instancetype)initWithTransition:(id<PLTransitionProtocol>)transition;
-- (void)setupWithTransition:(id<PLTransitionProtocol>)transition;
-@property(nonatomic,strong) NSArray<UIViewController *> *interactiveTransitionViewController;
+@interface PLNavigationTransitionDelegate : PLBaseTransitionDelegate<UINavigationControllerDelegate>
 @end

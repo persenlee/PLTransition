@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <PLTransition/PLTransitionProtocol.h>
+#import <PLTransition/PLTransition.h>
 
 @interface EXFallenMirrorTransition : NSObject<PLTransitionProtocol>
 

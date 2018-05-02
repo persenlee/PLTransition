@@ -1,4 +1,4 @@
 target "PLTransitionExample" do
 pod 'Masonry'
-pod 'PLTransition', :path => '../PLTransition/'
+pod 'PLTransition', :path => '../PLTransition.podspec'
 end
