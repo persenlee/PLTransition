@@ -17,18 +17,31 @@
 @end
 
 @implementation PLPresentTransitionDelegate
-- (instancetype)initWithTransition:(id<PLTransitionProtocol>)transition
+- (instancetype)init
 {
     self = [super init];
     if (self) {
         _transitionAgent = [[PLTransitionAgent alloc] init];
-        _transitionAgent.animator = transition;
-        if ([transition isInteractive]) {
-            _interactiveTransitionAgent = [[PLInteractiveTransitionAgent alloc] init];
-            _interactiveTransitionAgent.animator = transition;
-        }
     }
     return self;
+}
+
+- (instancetype)initWithTransition:(id<PLTransitionProtocol>)transition
+{
+    self = [self init];
+    if (self) {
+        [self setupWithTransition:transition];
+    }
+    return self;
+}
+
+- (void)setupWithTransition:(id<PLTransitionProtocol>)transition
+{
+    _transitionAgent.animator = transition;
+    if ([transition respondsToSelector:@selector(isInteractive)] && [transition isInteractive]) {
+        _interactiveTransitionAgent = [[PLInteractiveTransitionAgent alloc] init];
+        _interactiveTransitionAgent.animator = transition;
+    }
 }
 
 - (void)setInteractiveTransitionViewController:(NSArray<UIViewController *> *)interactiveTransitionViewController

@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		8C96C03B779FA2906F902A30 /* libPods-PLTransitionExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6415D4E813E434886C249EB9 /* libPods-PLTransitionExample.a */; };
+		D71F42FA20998A3F005486D7 /* EXFlipTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = D71F42F920998A3F005486D7 /* EXFlipTransition.m */; };
+		D71F42FD209992CF005486D7 /* EXFallenMirrorTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = D71F42FC209992CF005486D7 /* EXFallenMirrorTransition.m */; };
 		D758AD74209066D900C69C1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D758AD65209066D900C69C1B /* Assets.xcassets */; };
 		D758AD75209066D900C69C1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D758AD66209066D900C69C1B /* LaunchScreen.storyboard */; };
 		D758AD76209066D900C69C1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D758AD68209066D900C69C1B /* Main.storyboard */; };
@@ -31,6 +33,10 @@
 		6415D4E813E434886C249EB9 /* libPods-PLTransitionExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PLTransitionExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE764EF3B0F0949FBC594175 /* Pods-PLTransitionExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PLTransitionExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PLTransitionExample/Pods-PLTransitionExample.debug.xcconfig"; sourceTree = "<group>"; };
 		B9C93D4550EC3DC6851FC1BC /* libPods-PLTransition.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PLTransition.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D71F42F820998A3F005486D7 /* EXFlipTransition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EXFlipTransition.h; sourceTree = "<group>"; };
+		D71F42F920998A3F005486D7 /* EXFlipTransition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EXFlipTransition.m; sourceTree = "<group>"; };
+		D71F42FB209992CF005486D7 /* EXFallenMirrorTransition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EXFallenMirrorTransition.h; sourceTree = "<group>"; };
+		D71F42FC209992CF005486D7 /* EXFallenMirrorTransition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EXFallenMirrorTransition.m; sourceTree = "<group>"; };
 		D758AD64209066D900C69C1B /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D758AD65209066D900C69C1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D758AD67209066D900C69C1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -92,9 +98,21 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		D71F42F720998989005486D7 /* TransitionAnimator */ = {
+			isa = PBXGroup;
+			children = (
+				D71F42F820998A3F005486D7 /* EXFlipTransition.h */,
+				D71F42F920998A3F005486D7 /* EXFlipTransition.m */,
+				D71F42FB209992CF005486D7 /* EXFallenMirrorTransition.h */,
+				D71F42FC209992CF005486D7 /* EXFallenMirrorTransition.m */,
+			);
+			path = TransitionAnimator;
+			sourceTree = "<group>";
+		};
 		D758AD4A2090655C00C69C1B /* Example */ = {
 			isa = PBXGroup;
 			children = (
+				D71F42F720998989005486D7 /* TransitionAnimator */,
 				D758AD7D20906AF500C69C1B /* AppStore */,
 				D758AD6D209066D900C69C1B /* Home */,
 				D758AD63209066D900C69C1B /* Supporting Files */,
@@ -294,11 +312,13 @@
 				D758AD7C209066D900C69C1B /* SecondViewController.m in Sources */,
 				D75F6E3920919D3D00F9BA0F /* EXAppStoreCardView.m in Sources */,
 				D758AD8020906B1100C69C1B /* EXAppStoreFeedViewController.m in Sources */,
+				D71F42FD209992CF005486D7 /* EXFallenMirrorTransition.m in Sources */,
 				D75F6E3620919BA600F9BA0F /* EXAppStoreFeedCell.m in Sources */,
 				D758AD78209066D900C69C1B /* AppDelegate.m in Sources */,
 				D758AD7A209066D900C69C1B /* EXListCell.m in Sources */,
 				D758AD77209066D900C69C1B /* main.m in Sources */,
 				D758AD7B209066D900C69C1B /* EXHomeViewController.m in Sources */,
+				D71F42FA20998A3F005486D7 /* EXFlipTransition.m in Sources */,
 				D758AD8620906B9800C69C1B /* EXHomeTransition.m in Sources */,
 				D758AD8320906B3400C69C1B /* EXAppStoreArticleViewController.m in Sources */,
 				D75F6E3C2091B9C800F9BA0F /* EXAppStoreTransition.m in Sources */,

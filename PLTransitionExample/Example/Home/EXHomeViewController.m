@@ -11,6 +11,12 @@
 #import "EXAppStoreFeedViewController.h"
 #import <PLTransition.h>
 #import "EXHomeTransition.h"
+#import "EXFlipTransition.h"
+
+#define kListTitlesAndAnimators @{  @"Alpha Push/System Pop with Edge Pan Transition" : @"EXHomeTransition", \
+                                    @"Flip Transiton" : @"EXFlipTransition", \
+                                    @"FallenMirror Transition" : @"EXFallenMirrorTransition"\
+}
 
 @interface EXHomeViewController ()<UICollectionViewDelegate,UICollectionViewDataSource>
 @property(nonatomic,strong) UICollectionView *collectionView;
@@ -43,14 +49,15 @@
 - (NSInteger)collectionView:(UICollectionView *)collectionView
      numberOfItemsInSection:(NSInteger)section
 {
-    return 1;
+    return kListTitlesAndAnimators.allKeys.count;
 }
 
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView
                   cellForItemAtIndexPath:(NSIndexPath *)indexPath
 {
     EXListCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:NSStringFromClass([EXListCell class]) forIndexPath:indexPath];
-    [cell setupWithTitle:@"App Store"];
+    NSString *title = kListTitlesAndAnimators.allKeys[indexPath.item];
+    [cell setupWithTitle:title];
     return cell;
 }
 
@@ -59,12 +66,16 @@
 - (void)collectionView:(UICollectionView *)collectionView
 didSelectItemAtIndexPath:(NSIndexPath *)indexPath
 {
+    EXAppStoreFeedViewController *vc = [[EXAppStoreFeedViewController alloc] init];
+    NSString *key = kListTitlesAndAnimators.allKeys[indexPath.item];
+    NSString *classNameStr = [kListTitlesAndAnimators objectForKey:key];
+    id  transition = [[NSClassFromString(classNameStr) alloc] init];
     if (indexPath.row == 0) {
-        EXAppStoreFeedViewController *vc = [[EXAppStoreFeedViewController alloc] init];
         self.navigationDelegate.interactiveTransitionViewController = @[vc];
-        self.navigationController.delegate = self.navigationDelegate;
-        [self.navigationController pushViewController:vc animated:YES];
     }
+    [self.navigationDelegate setupWithTransition:transition];
+    self.navigationController.delegate = self.navigationDelegate;
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 
@@ -75,7 +86,7 @@ didSelectItemAtIndexPath:(NSIndexPath *)indexPath
         UICollectionViewFlowLayout *layout = [[UICollectionViewFlowLayout alloc] init];
         layout.minimumInteritemSpacing = 0;
         layout.minimumLineSpacing = 0;
-        layout.itemSize = CGSizeMake(CGRectGetWidth([UIScreen mainScreen].bounds), 100);
+        layout.itemSize = CGSizeMake(CGRectGetWidth([UIScreen mainScreen].bounds), 50);
         _collectionView = [[UICollectionView alloc] initWithFrame:CGRectZero
                                              collectionViewLayout:layout];
         _collectionView.backgroundColor = [UIColor whiteColor];
@@ -91,8 +102,7 @@ didSelectItemAtIndexPath:(NSIndexPath *)indexPath
 - (PLNavigationTransitionDelegate *)navigationDelegate
 {
     if (!_navigationDelegate) {
-        EXHomeTransition *transtion = [[EXHomeTransition alloc] init];
-        _navigationDelegate = [[PLNavigationTransitionDelegate alloc] initWithTransition:transtion];
+        _navigationDelegate = [[PLNavigationTransitionDelegate alloc] init];
     }
     return _navigationDelegate;
 }

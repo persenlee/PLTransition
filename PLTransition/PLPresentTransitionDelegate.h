@@ -12,5 +12,6 @@
 @protocol PLTransitionProtocol;
 @interface PLPresentTransitionDelegate : NSObject<UIViewControllerTransitioningDelegate>
 - (instancetype)initWithTransition:(id<PLTransitionProtocol>)transition;
+- (void)setupWithTransition:(id<PLTransitionProtocol>)transition;
 @property(nonatomic,strong) NSArray<UIViewController *> *interactiveTransitionViewController;
 @end
