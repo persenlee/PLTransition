@@ -70,10 +70,10 @@ didSelectItemAtIndexPath:(NSIndexPath *)indexPath
     NSString *key = kListTitlesAndAnimators.allKeys[indexPath.item];
     NSString *classNameStr = [kListTitlesAndAnimators objectForKey:key];
     id  transition = [[NSClassFromString(classNameStr) alloc] init];
+    [self.navigationDelegate setupWithTransition:transition];
     if (indexPath.row == 0) {
         self.navigationDelegate.interactiveTransitionViewController = @[vc];
     }
-    [self.navigationDelegate setupWithTransition:transition];
     self.navigationController.delegate = self.navigationDelegate;
     [self.navigationController pushViewController:vc animated:YES];
 }
