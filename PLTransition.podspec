@@ -19,5 +19,6 @@ Pod::Spec.new do |s|
   s.source        = { :git => "https://github.com/PLTransition.git", :tag => s.version }
   #s.public_header_files = 'PLTransition/PLTransition.h'
   s.source_files  = "PLTransition/*.{h,m}"
+  s.frameworks = 'UIKit','CoreGraphics'
   
 end

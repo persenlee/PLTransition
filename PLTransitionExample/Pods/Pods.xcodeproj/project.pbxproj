@@ -7,53 +7,55 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01AE39E0B84772009BF005671FDCCB70 /* PLTransitionAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C34EB2D5026245BDE4B778F9A22DEE9 /* PLTransitionAgent.m */; };
 		01E09711F001C49F92A97060414E262B /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 475326F2A929CD1AFFB74850961F32C0 /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0671B4E4587125F3F0B4EC28E96D7E37 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
-		12A978B50796533CA0D6024BC9329DE2 /* PLTabTransitionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 80E40FB892AF767AA3915479C90A3734 /* PLTabTransitionDelegate.m */; };
+		0373431F2EF4CF231BC278178295219F /* PLTabTransitionDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A9C396E9F96E96FD78946854B634FA0 /* PLTabTransitionDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		13635B78121B99E5C03C92506A161607 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 82F28AEAAF722BC62BF5B37D6663BBC2 /* MASViewAttribute.m */; };
-		13E38387B52E38A7BB39DCCC9ED2099D /* PLTransition-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 236A70D55689D74C43EAE0786117F6E9 /* PLTransition-dummy.m */; };
-		1D1E9615F9E37573AEF3E4B243A22519 /* PLTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = FE2820282250D96D0022723FF329D9A1 /* PLTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1F3BD3BC28432BB5E2F73501E06E4579 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 1321572A3ED9C894C94A131BE29B81B2 /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2616CA45FE4826207EB406EE4CEEBCA0 /* PLTransitionDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E85A5AFFFB8D4FF48B5E20E3796BB65 /* PLTransitionDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2C753A94CEB7AA5E5C558BC7913ED89A /* Pods-PLTransitionExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A533F72FE81EDE9731EE9D4B70CD3E /* Pods-PLTransitionExample-dummy.m */; };
 		2DBB74B8B5DDB1F621433DD12BF35102 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = C7C02266037F030E22468AC86802DB57 /* MASViewConstraint.m */; };
+		3DC7DB0D0E180BA1492B4570A460985B /* PLNavigationTransitionDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C81A6165A4B16A31F0E5040ABC7937D /* PLNavigationTransitionDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3E8E6916C563B9CB12AA417275FC6EB3 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C762C4F3A304C10AF7EBEA6AAA8508A0 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		46E000AFBBD8E3710C1C023E02FC9833 /* PLBaseTransitionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E107E31E320D7B57115556A68A835F7F /* PLBaseTransitionDelegate.m */; };
 		490CA524521F7D444EA58FA915D7E99C /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = B179F4D3D34A3CE25A698B8D9AC9D6C2 /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		49B903D576E09560C52AA92FDCC31A68 /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = EC0384F145CF471A951BA8E9486AD626 /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4C71A6533C7C06418018ABF7C8FFCF6B /* PLInteractiveTransitionAgent.h in Headers */ = {isa = PBXBuildFile; fileRef = EFC07749AEEFBFA9E532F74F6E0C70C4 /* PLInteractiveTransitionAgent.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4CBE1B46550A3FB90FDD1CB9CBA7B7FE /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 22E2395DA2EBCF6241A0DA0E1859FF45 /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		536AFA01194BEAB5EE3D9F5D98D71938 /* PLInteractiveTransitionAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = 049EE8CF0A1C53F7996321C69CF1FFBC /* PLInteractiveTransitionAgent.m */; };
+		53D1AF832938DA75068E8E2B88A66A04 /* PLPresentTransitionDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B14A76714AEDD9A05D042D21FBF23EA /* PLPresentTransitionDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		561852A0CEDE2ADEEFD7796FD616115D /* PLInteractiveTransitionAgent.h in Headers */ = {isa = PBXBuildFile; fileRef = EFC07749AEEFBFA9E532F74F6E0C70C4 /* PLInteractiveTransitionAgent.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		61CCEA01CBE8EFFA5515E7A0D8635AAE /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = D5EC6EDDDD3E503C5B2E967D3FEECFEB /* MASCompositeConstraint.m */; };
-		6209E20926D79222E59F58B962BFAA1E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
+		6209E20926D79222E59F58B962BFAA1E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5224A726D9EABB2D5F18E4597390EF3 /* UIKit.framework */; };
 		6249770A7D163B0F3001D5A76C5FA01C /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 3162AC8E29FA7F3BF0D8641F7F4D9B60 /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		68F98758BA84B8EC3472A8C6FD646D16 /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B5A231E76AF7DC6CB887B5B2C522A7A /* Masonry-dummy.m */; };
-		6B62B564461A42A32A352D3F2400A6AD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		6B62B564461A42A32A352D3F2400A6AD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE59B0D97841C2542CA3D20540685C26 /* Foundation.framework */; };
+		7A13D3F4610CD4F6B38EA86B04D46B4D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99C06B1B209CA23EC16EBF65CF890313 /* CoreGraphics.framework */; };
 		7BDDE51AF16FA53A09506EDB91E1C3C2 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8229525E7067F22D3977D2628DF5F2C3 /* NSArray+MASAdditions.m */; };
+		826B1D85E6AD70B2450C178B5EC79B4B /* PLPresentTransitionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E75629FF1F00647B0E900A47A4A3D320 /* PLPresentTransitionDelegate.m */; };
+		843A044ADA80162245ACBBFE5E07C94E /* PLTransitionAgent.h in Headers */ = {isa = PBXBuildFile; fileRef = B72A1F3D73466CD98487534B83745B28 /* PLTransitionAgent.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		86EE1CB5473A4A07081D8DE3A2C45924 /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E7E17DB5590A8C4D9625D67E6FBD243 /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		882850C0ADF70A926DF90AEB1DDCB90C /* PLBaseTransitionDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AEE255A8E4287A9A2847DA989523005 /* PLBaseTransitionDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		89450A58FD91E5B227171FC75160E4EA /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F937BDEB8DF93A08D20C5355C0FDB5C /* MASConstraint.m */; };
+		8CD8D71F09A681885D6A7241A13DCDFA /* PLTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = FE2820282250D96D0022723FF329D9A1 /* PLTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		933BF1B28572C0FA75931D050153DB2B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE59B0D97841C2542CA3D20540685C26 /* Foundation.framework */; };
 		955BE39896CA35F2A585DC3309E5FDA5 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 807FFD255E8235D5B42FE078299B5F1B /* MASLayoutConstraint.m */; };
-		95EEA632E4262B98A2C3B35F0FF4BDC1 /* PLInteractiveTransitionAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = 049EE8CF0A1C53F7996321C69CF1FFBC /* PLInteractiveTransitionAgent.m */; };
 		983CB852CBBFBC04C2A6BA407E34F59B /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A9F610CB90E57B81F8F7DCA2176E0FD /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9934AEA2C891C201D8ED5746FF42FE1B /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = E158FC65C5404E098F16E26F478DA504 /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9ACE53A355D660C0551037CB525F2B66 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5224A726D9EABB2D5F18E4597390EF3 /* UIKit.framework */; };
 		A1FA046FDFC42676D17FEC387B10D24A /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FCC2A09AC3DCD0E4A3D268DAABC5135 /* View+MASAdditions.m */; };
-		A478706BAB3861B864154E4839715575 /* PLNavigationTransitionDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C81A6165A4B16A31F0E5040ABC7937D /* PLNavigationTransitionDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A6436E3CFFCBFE591E2D2A68ED90CAC6 /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = B48867DE203BCF3BB3DFCAB8FDC7516B /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A83991D7C1373DF66020C2FDFC5D7564 /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 043FB94CF93050E20D8E4C071ACFA5D2 /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AAFD8B988F66F65515B48DDF0C350F96 /* PLBaseTransitionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E107E31E320D7B57115556A68A835F7F /* PLBaseTransitionDelegate.m */; };
-		B6AFFA5974EDA0A59711448B5B73A842 /* PLTransitionProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 71EACC2DD4AB21DBF35030A704A4EB98 /* PLTransitionProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B95883A41168435BEA71B5421C1DE782 /* PLPresentTransitionDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B14A76714AEDD9A05D042D21FBF23EA /* PLPresentTransitionDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C855F9B9DBC65FD50D95039E758CCD28 /* PLNavigationTransitionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 48EA37111E9B6E99A254C01630D43209 /* PLNavigationTransitionDelegate.m */; };
-		C868F14438E0C2717CC4425F4B1E4FA2 /* PLPresentTransitionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E75629FF1F00647B0E900A47A4A3D320 /* PLPresentTransitionDelegate.m */; };
+		ABF056CD903E3C11E78E0130E69FE88B /* PLTransition-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 236A70D55689D74C43EAE0786117F6E9 /* PLTransition-dummy.m */; };
 		C88F85D3200060BD98FC13EA58121706 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = FA891F8E85C079B4FB101DDD5BC7A477 /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D7801FE019B0715E15840A7D8D1E8C64 /* PLTransitionAgent.h in Headers */ = {isa = PBXBuildFile; fileRef = B72A1F3D73466CD98487534B83745B28 /* PLTransitionAgent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CD582032A43D4F298EBB9333F7596143 /* PLBaseTransitionDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AEE255A8E4287A9A2847DA989523005 /* PLBaseTransitionDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D2020782119C3C3D6BC8150B14CBA051 /* PLNavigationTransitionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 48EA37111E9B6E99A254C01630D43209 /* PLNavigationTransitionDelegate.m */; };
 		D7CE05A743B7ACD50796191FA442814C /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 25CED739CF35B6D0A1D95AE17D712A7F /* ViewController+MASAdditions.m */; };
 		DF7F88B58B564EDF169EC0C9CF8E5124 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = F8AB44751192F0AA8DA5F75A06138D15 /* MASConstraintMaker.m */; };
 		E072DA57403C4BFF9B10467BE05604C5 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = FBE23E70FF64ACC81816A368E171B903 /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E1E771349813022263F549BDF33CB4BB /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 915A6FF0E04F5A5C0ACDE0E32BD2F193 /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E2F2848A53A47CC185B06269032CF439 /* PLTabTransitionDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A9C396E9F96E96FD78946854B634FA0 /* PLTabTransitionDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E76CC7FBB2E2AE892728E74422BFDEF1 /* PLTransitionAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C34EB2D5026245BDE4B778F9A22DEE9 /* PLTransitionAgent.m */; };
+		E81379DF77AEE6D23BDBE0CACF021E80 /* PLTransitionDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E85A5AFFFB8D4FF48B5E20E3796BB65 /* PLTransitionDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EC48DE078CA5E55922CCE02354D475CD /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 780A86CEB0A0131C88BE12414D500734 /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F0B56A7D38A399A2F67F9920C9526A66 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		EDA72933651A78C7D4B55124DADD6480 /* PLTransitionProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 71EACC2DD4AB21DBF35030A704A4EB98 /* PLTransitionProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0B56A7D38A399A2F67F9920C9526A66 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE59B0D97841C2542CA3D20540685C26 /* Foundation.framework */; };
+		F411672D33603599A35DAC9A3EF7786D /* PLTabTransitionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 80E40FB892AF767AA3915479C90A3734 /* PLTabTransitionDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,7 +63,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 9404CF5168091AFC33C9CC43FB17C353;
+			remoteGlobalIDString = CAA5E1C0C5B951947A47BE1EAB338A8B;
 			remoteInfo = PLTransition;
 		};
 		B7E60108812A6BEC623F5181123F206F /* PBXContainerItemProxy */ = {
@@ -108,18 +110,19 @@
 		8E7E17DB5590A8C4D9625D67E6FBD243 /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
 		915A6FF0E04F5A5C0ACDE0E32BD2F193 /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		99C06B1B209CA23EC16EBF65CF890313 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
 		9F937BDEB8DF93A08D20C5355C0FDB5C /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
 		A2F75C96947B2651F82FC18F66C43B49 /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
+		A5224A726D9EABB2D5F18E4597390EF3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		B179F4D3D34A3CE25A698B8D9AC9D6C2 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
 		B48867DE203BCF3BB3DFCAB8FDC7516B /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
-		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		B72A1F3D73466CD98487534B83745B28 /* PLTransitionAgent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PLTransitionAgent.h; path = PLTransition/PLTransitionAgent.h; sourceTree = "<group>"; };
 		BDBB43393EC40545052A3447A851FC25 /* Pods-PLTransitionExample-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PLTransitionExample-resources.sh"; sourceTree = "<group>"; };
 		C762C4F3A304C10AF7EBEA6AAA8508A0 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
 		C7C02266037F030E22468AC86802DB57 /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
 		CD206A899C033DFF1D4835D3A7023BC7 /* libPods-PLTransitionExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-PLTransitionExample.a"; path = "libPods-PLTransitionExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE59B0D97841C2542CA3D20540685C26 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D5EC6EDDDD3E503C5B2E967D3FEECFEB /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
-		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D8CEAD2E7FF07216EA834407318A376E /* libPLTransition.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libPLTransition.a; path = libPLTransition.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		E107E31E320D7B57115556A68A835F7F /* PLBaseTransitionDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PLBaseTransitionDelegate.m; path = PLTransition/PLBaseTransitionDelegate.m; sourceTree = "<group>"; };
 		E158FC65C5404E098F16E26F478DA504 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
@@ -136,20 +139,22 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		66D0D7BD46CBC78FDBAECC8B4508FF6A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0671B4E4587125F3F0B4EC28E96D7E37 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		6FD8312A1AEB348F49A81C438DB25115 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				F0B56A7D38A399A2F67F9920C9526A66 /* Foundation.framework in Frameworks */,
 				6209E20926D79222E59F58B962BFAA1E /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD604CE1E06FA930EAC01BF541FB4515 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A13D3F4610CD4F6B38EA86B04D46B4D /* CoreGraphics.framework in Frameworks */,
+				933BF1B28572C0FA75931D050153DB2B /* Foundation.framework in Frameworks */,
+				9ACE53A355D660C0551037CB525F2B66 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,6 +193,14 @@
 			path = ../..;
 			sourceTree = "<group>";
 		};
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				93FD095B5FC2A2BCC81B8E3CFC167E67 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		3B9FAC5BAEA75CAB3E20372C4D27D7EE /* Masonry */ = {
 			isa = PBXGroup;
 			children = (
@@ -222,23 +235,6 @@
 			path = Masonry;
 			sourceTree = "<group>";
 		};
-		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				438B396F6B4147076630CAEFE34282C1 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
-				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
 		4854BD850DB1ADEB02DE483F0C44E016 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -271,11 +267,21 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				65F1239E5EE07051212D9EAF4E0956AB /* Development Pods */,
-				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
 				E9B49E9D4F6BC02AA78DCF86BCED2145 /* Pods */,
 				CC5242AB4188D5D6B35AF26C4F680FAF /* Products */,
 				5EF05A7E18B4B56C4C934F53D1AF7226 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		93FD095B5FC2A2BCC81B8E3CFC167E67 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				99C06B1B209CA23EC16EBF65CF890313 /* CoreGraphics.framework */,
+				CE59B0D97841C2542CA3D20540685C26 /* Foundation.framework */,
+				A5224A726D9EABB2D5F18E4597390EF3 /* UIKit.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		CC5242AB4188D5D6B35AF26C4F680FAF /* Products */ = {
@@ -325,6 +331,22 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		2CB22F982C2805E3649B988A1F5B901B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD582032A43D4F298EBB9333F7596143 /* PLBaseTransitionDelegate.h in Headers */,
+				561852A0CEDE2ADEEFD7796FD616115D /* PLInteractiveTransitionAgent.h in Headers */,
+				3DC7DB0D0E180BA1492B4570A460985B /* PLNavigationTransitionDelegate.h in Headers */,
+				53D1AF832938DA75068E8E2B88A66A04 /* PLPresentTransitionDelegate.h in Headers */,
+				0373431F2EF4CF231BC278178295219F /* PLTabTransitionDelegate.h in Headers */,
+				8CD8D71F09A681885D6A7241A13DCDFA /* PLTransition.h in Headers */,
+				843A044ADA80162245ACBBFE5E07C94E /* PLTransitionAgent.h in Headers */,
+				E81379DF77AEE6D23BDBE0CACF021E80 /* PLTransitionDefine.h in Headers */,
+				EDA72933651A78C7D4B55124DADD6480 /* PLTransitionProtocol.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BDF73468622762862D2FB76ED4AC0D8E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -344,22 +366,6 @@
 				86EE1CB5473A4A07081D8DE3A2C45924 /* View+MASAdditions.h in Headers */,
 				983CB852CBBFBC04C2A6BA407E34F59B /* View+MASShorthandAdditions.h in Headers */,
 				C88F85D3200060BD98FC13EA58121706 /* ViewController+MASAdditions.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BFE2C92D09D2AD2C7D20E48F5EB2A133 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				882850C0ADF70A926DF90AEB1DDCB90C /* PLBaseTransitionDelegate.h in Headers */,
-				4C71A6533C7C06418018ABF7C8FFCF6B /* PLInteractiveTransitionAgent.h in Headers */,
-				A478706BAB3861B864154E4839715575 /* PLNavigationTransitionDelegate.h in Headers */,
-				B95883A41168435BEA71B5421C1DE782 /* PLPresentTransitionDelegate.h in Headers */,
-				E2F2848A53A47CC185B06269032CF439 /* PLTabTransitionDelegate.h in Headers */,
-				1D1E9615F9E37573AEF3E4B243A22519 /* PLTransition.h in Headers */,
-				D7801FE019B0715E15840A7D8D1E8C64 /* PLTransitionAgent.h in Headers */,
-				2616CA45FE4826207EB406EE4CEEBCA0 /* PLTransitionDefine.h in Headers */,
-				B6AFFA5974EDA0A59711448B5B73A842 /* PLTransitionProtocol.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -384,23 +390,6 @@
 			productReference = CD206A899C033DFF1D4835D3A7023BC7 /* libPods-PLTransitionExample.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		9404CF5168091AFC33C9CC43FB17C353 /* PLTransition */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9EBD7092489CEA073F69F1F1463E3318 /* Build configuration list for PBXNativeTarget "PLTransition" */;
-			buildPhases = (
-				D4615037B883119A300149442F50E637 /* Sources */,
-				66D0D7BD46CBC78FDBAECC8B4508FF6A /* Frameworks */,
-				BFE2C92D09D2AD2C7D20E48F5EB2A133 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = PLTransition;
-			productName = PLTransition;
-			productReference = D8CEAD2E7FF07216EA834407318A376E /* libPLTransition.a */;
-			productType = "com.apple.product-type.library.static";
-		};
 		9DC8D9E02903E93BD0B2FEC9D846EA20 /* Masonry */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 34CAE1CB89EDBF2E53735CC5D4E5E69F /* Build configuration list for PBXNativeTarget "Masonry" */;
@@ -416,6 +405,23 @@
 			name = Masonry;
 			productName = Masonry;
 			productReference = FE1390E4A3742CAEAF0434A5309AB03A /* libMasonry.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		CAA5E1C0C5B951947A47BE1EAB338A8B /* PLTransition */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E47C88292258CEBAA80E952D72DD5F1B /* Build configuration list for PBXNativeTarget "PLTransition" */;
+			buildPhases = (
+				DFEE10802405F75DD91AFED81B7DD992 /* Sources */,
+				AD604CE1E06FA930EAC01BF541FB4515 /* Frameworks */,
+				2CB22F982C2805E3649B988A1F5B901B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PLTransition;
+			productName = PLTransition;
+			productReference = D8CEAD2E7FF07216EA834407318A376E /* libPLTransition.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -440,7 +446,7 @@
 			projectRoot = "";
 			targets = (
 				9DC8D9E02903E93BD0B2FEC9D846EA20 /* Masonry */,
-				9404CF5168091AFC33C9CC43FB17C353 /* PLTransition */,
+				CAA5E1C0C5B951947A47BE1EAB338A8B /* PLTransition */,
 				906A61D6CC4A243CBF804B66F38E4E97 /* Pods-PLTransitionExample */,
 			);
 		};
@@ -473,17 +479,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D4615037B883119A300149442F50E637 /* Sources */ = {
+		DFEE10802405F75DD91AFED81B7DD992 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AAFD8B988F66F65515B48DDF0C350F96 /* PLBaseTransitionDelegate.m in Sources */,
-				95EEA632E4262B98A2C3B35F0FF4BDC1 /* PLInteractiveTransitionAgent.m in Sources */,
-				C855F9B9DBC65FD50D95039E758CCD28 /* PLNavigationTransitionDelegate.m in Sources */,
-				C868F14438E0C2717CC4425F4B1E4FA2 /* PLPresentTransitionDelegate.m in Sources */,
-				12A978B50796533CA0D6024BC9329DE2 /* PLTabTransitionDelegate.m in Sources */,
-				13E38387B52E38A7BB39DCCC9ED2099D /* PLTransition-dummy.m in Sources */,
-				E76CC7FBB2E2AE892728E74422BFDEF1 /* PLTransitionAgent.m in Sources */,
+				46E000AFBBD8E3710C1C023E02FC9833 /* PLBaseTransitionDelegate.m in Sources */,
+				536AFA01194BEAB5EE3D9F5D98D71938 /* PLInteractiveTransitionAgent.m in Sources */,
+				D2020782119C3C3D6BC8150B14CBA051 /* PLNavigationTransitionDelegate.m in Sources */,
+				826B1D85E6AD70B2450C178B5EC79B4B /* PLPresentTransitionDelegate.m in Sources */,
+				F411672D33603599A35DAC9A3EF7786D /* PLTabTransitionDelegate.m in Sources */,
+				ABF056CD903E3C11E78E0130E69FE88B /* PLTransition-dummy.m in Sources */,
+				01AE39E0B84772009BF005671FDCCB70 /* PLTransitionAgent.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -493,7 +499,7 @@
 		A8A54CBAA5CA8DB315F5E060C8CC48D0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = PLTransition;
-			target = 9404CF5168091AFC33C9CC43FB17C353 /* PLTransition */;
+			target = CAA5E1C0C5B951947A47BE1EAB338A8B /* PLTransition */;
 			targetProxy = 9CDB38C30DB1A1F8690600F054B436EA /* PBXContainerItemProxy */;
 		};
 		A94B81DC858FDC8A820C26B840D269D2 /* PBXTargetDependency */ = {
@@ -505,31 +511,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		53BCFA18224B9E9586FBEEA3B051459D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 88D68BD21C2DB028942675D7A86ABA6D /* PLTransition.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/PLTransition/PLTransition-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		76FF59B1F407F062651D6CF914D09AD9 /* Release */ = {
+		56EB6B386007E2BFFC1A07632459F17B /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7A1B355F4427C14C2135175B1C96CD0E /* Pods-PLTransitionExample.release.xcconfig */;
 			buildSettings = {
+				CC = "$(SRCROOT)/../../ccache-clang";
+				CLANG_ENABLE_MODULES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -548,10 +535,35 @@
 			};
 			name = Release;
 		};
-		93955CE06E138D824D1CB7467D45D30D /* Release */ = {
+		6F7110B3CA6B6F9195E114667C6073D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFE7AF81507F29AB625385888BCA6430 /* Pods-PLTransitionExample.debug.xcconfig */;
+			buildSettings = {
+				CC = "$(SRCROOT)/../../ccache-clang";
+				CLANG_ENABLE_MODULES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9BBFD170C1A093416601692614967140 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 88D68BD21C2DB028942675D7A86ABA6D /* PLTransition.xcconfig */;
 			buildSettings = {
+				CC = "$(SRCROOT)/../../ccache-clang";
+				CLANG_ENABLE_MODULES = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -566,9 +578,8 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 			};
-			name = Release;
+			name = Debug;
 		};
 		A20B0BDFC4838E55DCAD094ED2792393 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -691,10 +702,59 @@
 			};
 			name = Debug;
 		};
-		DB4AA09D6A87734975482BB05CC1F54A /* Release */ = {
+		BE99712B8057644FD0A9D5CE38054641 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88D68BD21C2DB028942675D7A86ABA6D /* PLTransition.xcconfig */;
+			buildSettings = {
+				CC = "$(SRCROOT)/../../ccache-clang";
+				CLANG_ENABLE_MODULES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/PLTransition/PLTransition-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D4FD219FD4D69733E9A7827AE30898DE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7882AB8492CA4F59F730C76CC3BBF57A /* Masonry.xcconfig */;
 			buildSettings = {
+				CC = "$(SRCROOT)/../../ccache-clang";
+				CLANG_ENABLE_MODULES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DE78BA67ABAEE0B1F135FFFEE701CA57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7882AB8492CA4F59F730C76CC3BBF57A /* Masonry.xcconfig */;
+			buildSettings = {
+				CC = "$(SRCROOT)/../../ccache-clang";
+				CLANG_ENABLE_MODULES = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -713,48 +773,6 @@
 			};
 			name = Release;
 		};
-		E2EB527A037E509A0FEFD78B70F3433D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7882AB8492CA4F59F730C76CC3BBF57A /* Masonry.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		E9D33EA8F60D99985F20CD10EC7DA30E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FFE7AF81507F29AB625385888BCA6430 /* Pods-PLTransitionExample.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -770,17 +788,17 @@
 		34CAE1CB89EDBF2E53735CC5D4E5E69F /* Build configuration list for PBXNativeTarget "Masonry" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E2EB527A037E509A0FEFD78B70F3433D /* Debug */,
-				DB4AA09D6A87734975482BB05CC1F54A /* Release */,
+				D4FD219FD4D69733E9A7827AE30898DE /* Debug */,
+				DE78BA67ABAEE0B1F135FFFEE701CA57 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9EBD7092489CEA073F69F1F1463E3318 /* Build configuration list for PBXNativeTarget "PLTransition" */ = {
+		E47C88292258CEBAA80E952D72DD5F1B /* Build configuration list for PBXNativeTarget "PLTransition" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				53BCFA18224B9E9586FBEEA3B051459D /* Debug */,
-				93955CE06E138D824D1CB7467D45D30D /* Release */,
+				9BBFD170C1A093416601692614967140 /* Debug */,
+				BE99712B8057644FD0A9D5CE38054641 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -788,8 +806,8 @@
 		E859DF3F33E6AB34AF18F6C2505578CF /* Build configuration list for PBXNativeTarget "Pods-PLTransitionExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E9D33EA8F60D99985F20CD10EC7DA30E /* Debug */,
-				76FF59B1F407F062651D6CF914D09AD9 /* Release */,
+				6F7110B3CA6B6F9195E114667C6073D3 /* Debug */,
+				56EB6B386007E2BFFC1A07632459F17B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

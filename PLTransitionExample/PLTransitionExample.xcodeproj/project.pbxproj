@@ -10,6 +10,9 @@
 		8C96C03B779FA2906F902A30 /* libPods-PLTransitionExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6415D4E813E434886C249EB9 /* libPods-PLTransitionExample.a */; };
 		D71F42FA20998A3F005486D7 /* EXFlipTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = D71F42F920998A3F005486D7 /* EXFlipTransition.m */; };
 		D71F42FD209992CF005486D7 /* EXFallenMirrorTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = D71F42FC209992CF005486D7 /* EXFallenMirrorTransition.m */; };
+		D74A3BDE20A417F600B07F0F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D74A3BDD20A417F500B07F0F /* CoreGraphics.framework */; };
+		D74A3BE020A4189E00B07F0F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D74A3BDF20A4189E00B07F0F /* UIKit.framework */; };
+		D74A3BE220A4199400B07F0F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D74A3BE120A4199400B07F0F /* QuartzCore.framework */; };
 		D758AD74209066D900C69C1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D758AD65209066D900C69C1B /* Assets.xcassets */; };
 		D758AD75209066D900C69C1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D758AD66209066D900C69C1B /* LaunchScreen.storyboard */; };
 		D758AD76209066D900C69C1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D758AD68209066D900C69C1B /* Main.storyboard */; };
@@ -37,6 +40,9 @@
 		D71F42F920998A3F005486D7 /* EXFlipTransition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EXFlipTransition.m; sourceTree = "<group>"; };
 		D71F42FB209992CF005486D7 /* EXFallenMirrorTransition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EXFallenMirrorTransition.h; sourceTree = "<group>"; };
 		D71F42FC209992CF005486D7 /* EXFallenMirrorTransition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EXFallenMirrorTransition.m; sourceTree = "<group>"; };
+		D74A3BDD20A417F500B07F0F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D74A3BDF20A4189E00B07F0F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D74A3BE120A4199400B07F0F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		D758AD64209066D900C69C1B /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D758AD65209066D900C69C1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D758AD67209066D900C69C1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -71,6 +77,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D74A3BE220A4199400B07F0F /* QuartzCore.framework in Frameworks */,
+				D74A3BE020A4189E00B07F0F /* UIKit.framework in Frameworks */,
+				D74A3BDE20A417F600B07F0F /* CoreGraphics.framework in Frameworks */,
 				8C96C03B779FA2906F902A30 /* libPods-PLTransitionExample.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -81,6 +90,9 @@
 		5023132B3AD43F785D2FBD73 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D74A3BE120A4199400B07F0F /* QuartzCore.framework */,
+				D74A3BDF20A4189E00B07F0F /* UIKit.framework */,
+				D74A3BDD20A417F500B07F0F /* CoreGraphics.framework */,
 				B9C93D4550EC3DC6851FC1BC /* libPods-PLTransition.a */,
 				6415D4E813E434886C249EB9 /* libPods-PLTransitionExample.a */,
 			);
@@ -462,6 +474,8 @@
 			baseConfigurationReference = AE764EF3B0F0949FBC594175 /* Pods-PLTransitionExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CC = "$(SRCROOT)/../ccache-clang";
+				CLANG_ENABLE_MODULES = NO;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 688J9325V6;
 				INFOPLIST_FILE = "Example/Supporting Files/Info.plist";
@@ -480,6 +494,8 @@
 			baseConfigurationReference = EF0A4B67487E14668EF4F4DB /* Pods-PLTransitionExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CC = "$(SRCROOT)/../ccache-clang";
+				CLANG_ENABLE_MODULES = NO;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 688J9325V6;
 				INFOPLIST_FILE = "Example/Supporting Files/Info.plist";
