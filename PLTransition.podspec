@@ -13,10 +13,10 @@ Pod::Spec.new do |s|
                    * Finally, don't worry about the indent, CocoaPods strips it!
                    DESC
 
-  s.homepage      = "https://github.com/PLTransition"
-  s.author        = { "" => "n" }
+  s.homepage      = "https://github.com/persenlee/PLTransition"
+  s.author        = { "persenlee" => "persenlee@gmail.com" }
   s.platform      = :ios, "7.0"
-  s.source        = { :git => "https://github.com/PLTransition.git", :tag => s.version }
+  s.source        = { :git => "https://github.com/persenlee/PLTransition.git", :tag => s.version }
   #s.public_header_files = 'PLTransition/PLTransition.h'
   s.source_files  = "PLTransition/*.{h,m}"
   s.frameworks = 'UIKit','CoreGraphics'
